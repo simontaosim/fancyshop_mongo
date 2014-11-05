@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  resources :provinces
+
+  resources :countries
+
+  resources :users
+
   resources :product_cates
 
   resources :products

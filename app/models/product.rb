@@ -5,4 +5,5 @@ class Product
   field :desription, type: String
   field :price, type: Float
   field :level, type: Integer
+  belongs_to :ProductCate
 end
